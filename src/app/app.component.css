@@ -1,0 +1,91 @@
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    
+
+}
+#inpu input[type="text"]{
+    width: 270px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 9px;
+    border-radius: 13px;
+}
+.all-btn{
+    display: flex;
+}
+.all-btn-numbers{
+    margin-top: 20px;
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.all-btn-sign{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+.all-btn-numbers button{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.all-btn-sign button{
+   
+    background-color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-clear{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.btn-clear button{
+    width: 120px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+.all-btn-numbers button:hover{
+    cursor: pointer;
+    background-color: #ff7300;
+    color: white;
+}
+.btn-clear button:hover{
+    cursor: pointer;
+    background-color: #ff7300;
+    color: white;
+}
+.all-btn-sign button:hover{
+    cursor: pointer;
+    background-color:#ff7300;
+    color: white;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+	margin-top: 200px;
+}
+
